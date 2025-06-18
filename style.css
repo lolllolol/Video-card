@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: block;
+  width: 320px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.05);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.thumb {
+  width: 100%;
+  display: block;
+}
+
+.info {
+  padding: 16px;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0 0 6px;
+}
+
+.channel {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.meta {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 8px 0;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 0.8rem;
+  background: #111;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-0.3s ease;
+}
+
+.btn:hover {
+  background: #333;
+}
